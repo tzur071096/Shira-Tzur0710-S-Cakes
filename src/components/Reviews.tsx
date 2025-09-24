@@ -22,7 +22,7 @@ const Reviews = () => {
       rating: 5,
       date: '1 month ago',
       title: 'Perfect Birthday Surprise',
-      content: 'My daughter\'s 10th birthday cake was absolutely perfect! Shira captured her love for unicorns and made the most magical cake. The attention to detail was incredible, and my daughter was over the moon. Highly recommend!',
+      content: 'My daughter&apos;s 10th birthday cake was absolutely perfect! Shira captured her love for unicorns and made the most magical cake. The attention to detail was incredible, and my daughter was over the moon. Highly recommend!',
       occasion: 'Birthday',
       image: '/images/1.jpg'
     },
@@ -33,7 +33,7 @@ const Reviews = () => {
       rating: 5,
       date: '3 weeks ago',
       title: 'Delicious and Beautiful',
-      content: 'I ordered cupcakes for my office party and they were a huge hit! Not only were they gorgeous, but they tasted amazing. Everyone was asking where I got them. Shira\'s attention to detail and flavor combinations are outstanding.',
+      content: 'I ordered cupcakes for my office party and they were a huge hit! Not only were they gorgeous, but they tasted amazing. Everyone was asking where I got them. Shira&apos;s attention to detail and flavor combinations are outstanding.',
       occasion: 'Corporate',
       image: '/images/9.jpg'
     },
@@ -55,7 +55,7 @@ const Reviews = () => {
       rating: 5,
       date: '1 week ago',
       title: 'Baking Workshop was Fantastic!',
-      content: 'I attended one of Shira\'s summer baking workshops and learned so much! She\'s an excellent teacher - patient, knowledgeable, and fun. I left with new skills and delicious treats. Can\'t wait for the next workshop!',
+      content: 'I attended one of Shira&apos;s summer baking workshops and learned so much! She&apos;s an excellent teacher - patient, knowledgeable, and fun. I left with new skills and delicious treats. Can&apos;t wait for the next workshop!',
       occasion: 'Workshop',
       image: '/images/5.jpg'
     },
@@ -92,7 +92,7 @@ const Reviews = () => {
             What My Customers Say
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Don't just take my word for it - hear from the amazing people who've trusted me with their special occasions.
+            Don&apos;t just take my word for it - hear from the amazing people who&apos;ve trusted me with their special occasions.
           </p>
         </div>
 
@@ -186,10 +186,10 @@ const Reviews = () => {
               </div>
               
               <blockquote className="text-lg text-gray-700 italic leading-relaxed mb-6">
-                "Working with Shira was an absolute dream! From our initial consultation to the final delivery, 
+                &quot;Working with Shira was an absolute dream! From our initial consultation to the final delivery, 
                 she was professional, creative, and incredibly talented. Our wedding cake was not only stunning 
                 but also delicious. Every guest commented on how beautiful and tasty it was. Shira truly has a 
-                gift for bringing visions to life. I can't recommend her enough!"
+                gift for bringing visions to life. I can&apos;t recommend her enough!&quot;
               </blockquote>
 
               <div className="flex items-center justify-between">
@@ -212,7 +212,7 @@ const Reviews = () => {
           <div className="bg-gradient-to-r from-pink-500 to-pink-600 rounded-2xl p-8 text-white">
             <h3 className="text-2xl font-bold mb-4">Ready to Create Your Perfect Cake?</h3>
             <p className="text-lg mb-6 opacity-90">
-              Join hundreds of satisfied customers who've trusted Shira with their special occasions.
+              Join hundreds of satisfied customers who&apos;ve trusted Shira with their special occasions.
             </p>
             <button 
               onClick={() => document.getElementById('home')?.scrollIntoView({ behavior: 'smooth' })}

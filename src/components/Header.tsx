@@ -75,7 +75,7 @@ const Header = () => {
                 alt="Shira's Cakes Logo" 
                 className="w-12 h-12 rounded-full object-cover"
               />
-              <span className="text-2xl font-bold text-pink-600">Shira's Cakes</span>
+              <span className="text-2xl font-bold text-pink-600">Shira&apos;s Cakes</span>
             </div>
 
             {/* Desktop Navigation */}

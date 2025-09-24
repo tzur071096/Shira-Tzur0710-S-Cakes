@@ -57,10 +57,10 @@ const Contact = () => {
             <span className="text-sm font-semibold uppercase tracking-wide">Contact</span>
           </div>
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            Let's Create Something Sweet Together
+            Let&apos;s Create Something Sweet Together
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Ready to bring your cake vision to life? Get in touch and let's discuss your special occasion.
+            Ready to bring your cake vision to life? Get in touch and let&apos;s discuss your special occasion.
           </p>
         </div>
 
@@ -70,8 +70,8 @@ const Contact = () => {
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Get In Touch</h3>
               <p className="text-lg text-gray-600 mb-8">
-                I'd love to hear about your vision and help make your special occasion even more memorable. 
-                Whether it's a birthday, wedding, or any celebration, let's create something amazing together.
+                I&apos;d love to hear about your vision and help make your special occasion even more memorable. 
+                Whether it&apos;s a birthday, wedding, or any celebration, let&apos;s create something amazing together.
               </p>
             </div>
 
@@ -149,7 +149,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h5 className="font-semibold text-gray-900">Design Consultation</h5>
-                    <p className="text-sm text-gray-600">We'll discuss flavors, design, and timeline</p>
+                    <p className="text-sm text-gray-600">We&apos;ll discuss flavors, design, and timeline</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
@@ -158,7 +158,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h5 className="font-semibold text-gray-900">Creation & Delivery</h5>
-                    <p className="text-sm text-gray-600">I'll create your perfect cake and arrange pickup/delivery</p>
+                    <p className="text-sm text-gray-600">I&apos;ll create your perfect cake and arrange pickup/delivery</p>
                   </div>
                 </div>
               </div>
@@ -171,7 +171,7 @@ const Contact = () => {
                 <h4 className="text-lg font-bold">Need a Rush Order?</h4>
               </div>
               <p className="text-sm opacity-90 mb-4">
-                For last-minute orders or urgent requests, call me directly. I'll do my best to accommodate your needs.
+                For last-minute orders or urgent requests, call me directly. I&apos;ll do my best to accommodate your needs.
               </p>
               <a 
                 href="tel:+12146776273"

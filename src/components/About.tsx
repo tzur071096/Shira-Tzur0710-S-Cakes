@@ -83,14 +83,14 @@ const About = () => {
               <h3 className="text-3xl font-bold text-gray-900">My Story</h3>
               <div className="space-y-4 text-lg text-gray-700 leading-relaxed">
                 <p>
-                  Hi, I'm Shira! What started as a fun hobby in 2019 quickly turned into a full-blown passion 
+                  Hi, I&apos;m Shira! What started as a fun hobby in 2019 quickly turned into a full-blown passion 
                   for bringing custom cake visions to life. As a 19-year-old self-taught baker and cake designer, 
-                  I've learned that the best ingredients for any cake are creativity, patience, and a whole lot of love.
+                  I&apos;ve learned that the best ingredients for any cake are creativity, patience, and a whole lot of love.
                 </p>
                 <p>
-                  While I'm currently a full-time student at the University of Texas at Austin, my passion for baking 
-                  has never wavered. In fact, it's only grown stronger. I specialize in custom cakes for any occasion, 
-                  but you'll also find me whipping up cupcakes, cookies, and running summer baking workshops where I 
+                  While I&apos;m currently a full-time student at the University of Texas at Austin, my passion for baking 
+                  has never wavered. In fact, it&apos;s only grown stronger. I specialize in custom cakes for any occasion, 
+                  but you&apos;ll also find me whipping up cupcakes, cookies, and running summer baking workshops where I 
                   teach the basics (and the fun!) of baking.
                 </p>
                 <p>
@@ -198,7 +198,7 @@ const About = () => {
               <span className="text-lg font-semibold">Ready to Create Something Sweet Together?</span>
             </div>
             <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
-              Let's discuss your vision and bring your dream cake to life. Every creation starts with a conversation.
+              Let&apos;s discuss your vision and bring your dream cake to life. Every creation starts with a conversation.
             </p>
             <button 
               onClick={() => document.getElementById('home')?.scrollIntoView({ behavior: 'smooth' })}

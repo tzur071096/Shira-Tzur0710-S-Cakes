@@ -18,7 +18,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Send email to Shira
-    const { data, error } = await resend.emails.send({
+    const { error } = await resend.emails.send({
       from: FROM_EMAIL,
       to: [TO_EMAIL],
       subject: `New Cake Order Request from ${name}`,

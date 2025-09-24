@@ -67,7 +67,7 @@ const Hero = () => {
               </h1>
               
               <p className="text-xl text-gray-600 leading-relaxed">
-                Hi, I'm Shira! A 19-year-old self-taught baker and cake designer from UT Austin. 
+                Hi, I&apos;m Shira! A 19-year-old self-taught baker and cake designer from UT Austin. 
                 I specialize in custom cakes, cupcakes, cookies, and love teaching baking workshops.
               </p>
             </div>
@@ -109,7 +109,7 @@ const Hero = () => {
           <div className="bg-white rounded-2xl shadow-xl p-8">
             <div className="text-center mb-6">
               <h2 className="text-2xl font-bold text-gray-900 mb-2">Order Your Custom Cake</h2>
-              <p className="text-gray-600">Tell me about your vision and I'll bring it to life!</p>
+              <p className="text-gray-600">Tell me about your vision and I&apos;ll bring it to life!</p>
             </div>
 
             <form onSubmit={handleSubmit} className="space-y-6">
@@ -179,7 +179,7 @@ const Hero = () => {
 
               {submitStatus === 'success' && (
                 <div className="bg-green-50 border border-green-200 text-green-800 px-4 py-3 rounded-lg">
-                  Thank you! I'll get back to you within 24 hours to discuss your custom cake.
+                  Thank you! I&apos;ll get back to you within 24 hours to discuss your custom cake.
                 </div>
               )}
 
