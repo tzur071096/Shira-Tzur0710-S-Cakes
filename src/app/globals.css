@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --primary-pink: #f8b5c1;
+  --secondary-pink: #fce4e8;
+  --accent-pink: #f4a6b7;
+  --text-dark: #2d2d2d;
+  --text-light: #666666;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary-pink: var(--primary-pink);
+  --color-secondary-pink: var(--secondary-pink);
+  --color-accent-pink: var(--accent-pink);
+  --color-text-dark: var(--text-dark);
+  --color-text-light: var(--text-light);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-pink);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-pink);
+}
+
+/* Smooth animations */
+* {
+  transition: all 0.3s ease;
+}
+
+/* Custom button styles */
+.btn-primary {
+  @apply bg-pink-400 hover:bg-pink-500 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105;
+}
+
+.btn-secondary {
+  @apply bg-white hover:bg-pink-50 text-pink-500 font-semibold py-3 px-6 rounded-lg border-2 border-pink-400 transition-all duration-300 transform hover:scale-105;
+}

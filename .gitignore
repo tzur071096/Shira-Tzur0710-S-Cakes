@@ -1,0 +1,9 @@
+node_modules/
+.next/
+dist/
+uild/
+.env.local
+*.log
+*.env
+*.local
+*.lock
